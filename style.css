@@ -93,6 +93,7 @@ input {
 
 .button {
     margin-top: 10px;
+    line-height: 25px;
 }
 
 .image {
@@ -103,6 +104,15 @@ img {
     border-radius: 6px;
 }
 
-.item-3 .text, .item-2 .text, .item-1 .text, .item-4 .text, .item-5 .text, .item-6 .text {
+.item-3 .text, 
+.item-2 .text, 
+.item-1 .text, 
+.item-4 .text, 
+.item-5 .text, 
+.item-6 .text {
     margin: 15px;
+}
+
+.text .button input {
+    width: 70px;
 }
