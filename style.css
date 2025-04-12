@@ -51,14 +51,15 @@ ul {
 
 .bottom-container {
     background-color: lightsalmon;
-    margin-top: 50px;
+    /*margin-top: 50px;*/
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     column-gap: 20px;
     /*width: 100%;*/
     min-height: 74.5vh;
-    margin: 10px;
-    padding: 20px;
+    margin: 50px;
+    padding: 150px;
+    row-gap: 20px;
 }
 
 .item-1, .item-2, .item-3,
@@ -100,4 +101,8 @@ input {
 
 img {
     border-radius: 6px;
+}
+
+.item-3 .text, .item-2 .text, .item-1 .text, .item-4 .text, .item-5 .text, .item-6 .text {
+    margin: 15px;
 }
