@@ -9,7 +9,7 @@ body {
     height: 100vh;
     width: 100vw;
 }
-
+/* Header Section */
 .header h1 {
     background-color: lightgreen;
     margin: 10px;
@@ -38,6 +38,8 @@ input[type="text"] {
 
 a {
     text-decoration: none;
+    color: black;
+    cursor: pointer;
 }
 
 ul {
@@ -54,6 +56,7 @@ ul {
     width: 50%;
 }
 
+/* BOTTOM SECTION */
 
 .bottom-container {
     background-color: lightsalmon;
@@ -121,4 +124,15 @@ img {
 
 .text .button input {
     width: 70px;
+}
+
+/* LINKS AND HOVER EFFECT */
+
+a:hover {
+    background-color: #849FFF;
+    color: white;
+    border: 1px solid #849FFF;
+    padding: 15px;
+    transition: ease-in-out;
+    border-radius: 8px;
 }
