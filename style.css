@@ -17,8 +17,8 @@ body {
 }
 
 input[type="text"] {
-    width: 31.25rem;
-    height: 4.065rem;
+    min-width: 31.25rem;
+    min-height: 4.065rem;
     border: 1px solid #555;
     display: block;
     padding: 9px 4px 9px 40px;
@@ -45,7 +45,7 @@ ul {
     font-size: 1.25rem;
     display: flex;
     width: auto;
-    height: 4.065rem;
+    min-height: 4.065rem;
     justify-content: space-evenly;
     align-items: center;
 }
@@ -72,7 +72,7 @@ ul {
 .item-4, .item-5, .item-6 {
     border: 1px solid lightgrey;
     background-color: aquamarine;
-    height: 330px;
+    min-height: 330px;
     border-radius: 8px;
 }
 
@@ -85,7 +85,7 @@ ul {
 .text {
     text-align: center;
     padding: 30px;
-    height: fit-content;
+    max-height: fit-content;
     position: relative; /*Used the positioning property to move the text from the top*/
     top: 20%;
 }

@@ -1,0 +1,155 @@
+@media screen and (max-width: 1628px){
+    .text {
+        position: relative;
+        top: 2%;
+    }
+}
+
+
+@media screen and (max-width: 1475px) {
+    
+    .bottom-container {
+        width: auto;
+        margin: auto;
+        padding: 120px;
+    }
+    
+}
+
+
+
+
+@media screen and (max-width: 1382px){
+    .bottom-container {
+        overflow: hidden;
+        width: auto;
+        margin: auto;
+        padding: auto;
+    }
+}
+
+@media screen and (max-width: 1334px){
+    input[type="text"] {
+        min-width: 21.875rem;
+        min-height: 2.846rem;
+        background-size: 1.0938rem;
+        font-size: 0.875rem;
+    }
+    .search-bar {
+        height: fit-content;
+        align-self: center;
+    }
+
+    .right-links {
+        font-size: 0.875rem;
+    }
+
+    .nav-bar {
+        gap: 300px;
+    }
+
+    .bottom-container {
+        width: auto;
+        margin: auto;
+        padding: 105px;
+    }
+}
+
+@media screen and (max-width:1289px) {
+    .nav-bar {
+        gap: 250px;
+    }
+
+    .bottom-container {
+        width: auto;
+        margin: auto;
+        padding: 73.5px;
+    }
+    
+}
+
+@media screen and (max-width:1256px) {
+    .nav-bar {
+        gap: 200px;
+    }
+
+    .bottom-container {
+        width: auto;
+        margin: auto;
+        padding: 51.45px;
+    }
+    
+}
+
+
+@media screen and (max-width:1289px) {
+
+    .bottom-container {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .button {
+        width: 144px;
+    }
+
+    .text {
+        width: 204px;
+    }
+}
+
+@media screen and (max-width:1045px) {
+
+    .right-links {
+        font-size: 8px;
+    }
+
+    .nav-bar {
+        gap: 100px;
+    }
+}
+
+@media screen and (max-width:935px) {
+
+    .right-links {
+        font-size: 6px;
+    }
+
+    .nav-bar {
+        gap: 80px;
+    }
+}
+
+@media screen and (max-width:935px) {
+
+    .nav-bar {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .right-links {
+        min-width: 80%
+    }
+}
+
+@media screen and (max-width:585px) {
+
+    .right-links {
+        min-width: 90%;
+        font-size: 5px;
+    }
+}
+
+
+@media screen and (max-width:505px) {
+
+    .right-links {
+        min-width: 100%;
+        font-size: 2px;
+    }
+}
