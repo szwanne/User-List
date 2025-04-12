@@ -66,4 +66,38 @@ ul {
     border: 1px solid lightgrey;
     background-color: aquamarine;
     height: 330px;
+    border-radius: 8px;
+}
+
+.item-1, .item-2, .item-3, 
+.item-4, .item-5, .item-6 {
+    display: flex;
+    gap: 10px;
+}
+
+.text {
+    text-align: center;
+    padding: 30px;
+    height: fit-content;
+    position: relative; /*Used the positioning property to move the text from the top*/
+    top: 20%;
+}
+
+input {
+    width: 50px;
+    background-color: aqua;
+    border-radius: 10px;
+
+}
+
+.button {
+    margin-top: 10px;
+}
+
+.image {
+    padding: 20px;
+}
+
+img {
+    border-radius: 6px;
 }
