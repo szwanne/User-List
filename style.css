@@ -136,3 +136,15 @@ a:hover {
     transition: ease-in-out;
     border-radius: 8px;
 }
+
+.item-1:hover,
+.item-2:hover,
+.item-3:hover,
+.item-4:hover,
+.item-5:hover,
+.item-6:hover {
+    box-shadow: 10px 5px 10px 0px #555;
+    transform: scale(1.05);
+    transition: ease-in-out;
+    cursor: pointer;
+}
